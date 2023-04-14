@@ -1,5 +1,4 @@
 import "./styles.css";
-import styled from "styled-components";
 import React, { useState } from "react";
 import Question from "./Components/Question.js";
 import Grid from "./Components/Grid.js";
@@ -21,6 +20,26 @@ const QUESTION_BANK = [
   {
     question: "What is 9 x 5?",
     correctAnswer: "45"
+  },
+  {
+    question: "What is 4 x 5?",
+    correctAnswer: "20"
+  },
+  {
+    question: "What is 9 x 6?",
+    correctAnswer: "54"
+  },
+  {
+    question: "What is 9 x 11?",
+    correctAnswer: "99"
+  },
+  {
+    question: "What is 10 x 5?",
+    correctAnswer: "50"
+  },
+  {
+    question: "What is 3 x 8?",
+    correctAnswer: "24"
   }
 ];
 
